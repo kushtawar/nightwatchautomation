@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="demo"
+    errors="0" failures="1" hostname="" id="" package="demo" skipped="0"
+    tests="1" time="6.554" timestamp="Sat, 28 Jul 2018 11:37:22 GMT">
+  
+    <testcase name="Demo test Google" classname="demo" time="6.554" assertions="4">
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;button[name=btnG]&gt; to be visible for 1000 milliseconds.">    at Object.Demo test Google (/Users/kushtawar/Documents/Tutorials/DockerMS/POCAutomation/tests/demo.js:9:10)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,14 @@
+{
+  "name": "pocautomation",
+  "version": "1.0.0",
+  "description": "to learn nightwatchautomation",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Kushtawar",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.21"
+  }
+}
