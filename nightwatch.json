@@ -58,6 +58,17 @@
           }
         }
       },
+      "firefox" : {
+        "desiredCapabilities": {
+          "browserName": "firefox",
+          "platform":"VISTA",
+          "version":"latest",
+          "javascriptEnabled": true,
+          "acceptSslCerts": true,
+          "api_key": "api_key",
+          "api_secret": "api_secret"
+        }
+      },
 
       "edge" : {
         "desiredCapabilities": {
