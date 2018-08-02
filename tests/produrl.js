@@ -8,7 +8,7 @@ module.exports = {
   'Medangular Test' : function (client) {
       client
        
-        .url('http://localhost:4200')
+        .url('http://13.232.205.161')
         .waitForElementVisible('body', 5000)
         .click('xpath','//button[text()="Submit"]')
         .click('xpath','//button[text()="Reset"]')
