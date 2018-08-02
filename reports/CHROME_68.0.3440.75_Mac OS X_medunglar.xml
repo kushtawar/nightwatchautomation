@@ -5,9 +5,9 @@
 
   <testsuite name="medunglar"
     errors="0" failures="0" hostname="" id="" package="medunglar" skipped="0"
-    tests="1" time="5.572" timestamp="Sat, 28 Jul 2018 19:56:07 GMT">
+    tests="1" time="126.7" timestamp="Mon, 30 Jul 2018 16:02:22 GMT">
   
-    <testcase name="Medangular Test" classname="medunglar" time="5.572" assertions="3">
+    <testcase name="Medangular Test" classname="medunglar" time="126.7" assertions="3">
 
     
 
