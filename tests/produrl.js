@@ -3,12 +3,19 @@ module.exports = {
     
    // browser.resizeWindow(1000, 600);
     browser.switchWindow();
-
+ 
   },  
-  'Medangular Test' : function (client) {
+  'Medangular Prod Sanity' : function (client) {
+    const fs = require('fs');
+    let rawdata = fs.readFileSync('env.json');  
+    let envdetails = JSON.parse(rawdata);  
+    let myenv= envdetails.env;
+    let myinstanceurl=envdetails.instanceurl;
+    console.log(myenv);
+    console.log(myinstanceurl);
       client
        
-        .url('http://13.232.238.4')
+        .url(myinstanceurl)
         .waitForElementVisible('body', 5000)
         .click('xpath','//button[text()="Submit"]')
         .click('xpath','//button[text()="Reset"]')
